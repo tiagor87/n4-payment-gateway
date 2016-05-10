@@ -1,0 +1,34 @@
+{
+  "name": "n4-payment-gateway",
+  "version": "1.0.0",
+  "description": "Payment gateway for PagSeguro, Cielo and PayPal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiagor87/n4-payment-gateway.git"
+  },
+  "keywords": [
+    "gateway",
+    "payment",
+    "n4",
+    "cielo",
+    "pagseguro",
+    "paypal"
+  ],
+  "author": "falecom@nquatro.com.br",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiagor87/n4-payment-gateway/issues"
+  },
+  "homepage": "https://github.com/tiagor87/n4-payment-gateway#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "express-xml-bodyparser": "^0.3.0",
+    "xml-parser": "^1.2.1"
+  }
+}
